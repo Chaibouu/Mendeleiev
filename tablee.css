@@ -1,0 +1,187 @@
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    margin: 0;
+    padding-top: 100px;
+}
+.conteneur{
+    width: 90%;
+}
+table{
+    table-layout: fixed;
+    width: 100%;
+    margin: auto;
+    border-spacing: 3px;
+}
+table tr td{
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+.box{
+    text-align: center;
+}
+.rose{
+    background-color:#B9648C;
+}
+.roseclaire{
+    background-color:#EB969F;
+}
+.orange{
+    background-color: #EE9B82;
+}
+.vertclaire{
+    background-color:#B6E0AC;
+}
+.vert{
+    background-color: #92DAC4;
+}
+.orangeclaire{
+    background-color:#F0CAA7;
+}
+.jaune{
+    background-color: #FEEFC1;
+}
+.jauneclaire{
+    background-color: #F2FBC8;
+}
+.bleu{
+    background-color: #79B1D2;
+}
+.violet{
+    background-color: #8478B6;
+}
+
+img{
+    width:150px;
+    height: 150px;
+    border-radius: 100%;
+}
+
+.img{
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+@media screen and (min-width: 1600px) {
+    table tr td{
+        font-size: 16px;
+    }   
+}
+@media screen and (max-width: 1600px) {
+    table tr td{
+        font-size: 15px;
+    }  
+}
+@media screen and (max-width: 1510px) {
+    table tr td{
+        font-size: 14px;
+    }  
+}
+@media screen and (max-width: 1420px) {
+    table tr td{
+        font-size: 13px;
+    }
+    img{
+        width:130px;
+        height: 130px;
+        
+    }
+}
+@media screen and (max-width: 1330px) {
+    table tr td{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 1240px) {
+    table tr td{
+        font-size: 11px;
+    }
+}
+@media screen and (max-width: 1150px) {
+    table tr td{
+        font-size: 10px;
+    }
+    img{
+        width:100px;
+        height: 100px;
+    }
+}
+@media screen and (max-width: 1055px) {
+    table tr td{
+        font-size: 9px;
+    }
+}
+@media screen and (max-width: 965px) {
+    table tr td{
+        font-size: 8px;
+    }
+}
+@media screen and (max-width: 875px) {
+    table tr td{
+        font-size: 7px;
+    }
+    img{
+        width:70px;
+        height:70px;
+    }
+    .img p{
+        font-size:11px;
+    }
+}
+@media screen and (max-width: 780px) {
+    table tr td{
+        font-size: 6px;
+    }
+    img{
+        width:70px;
+        height:70px;
+    }
+    .img p{
+        font-size:11px;
+    }
+}
+@media screen and (max-width: 690px) {
+    table tr td{
+        font-size: 5px;
+    }
+    img{
+        width:50px;
+        height:50px;
+    }
+    .img p{
+        font-size:9px;
+    }
+}
+@media screen and (max-width: 595px) {
+    table tr td{
+        font-size: 4px;
+    }
+}
+@media screen and (max-width: 505px) {
+    table tr td{
+        font-size: 3px;
+    }
+    img{
+        width:50px;
+        height:50px;
+    }
+    .img p{
+        font-size:9px;
+    }
+}
+@media screen and (max-width: 320px) {
+    table tr td{
+        font-size: 2px;
+    }
+    img{
+        width:30px;
+        height:30px;
+    }
+    .img p{
+        font-size:6px;
+    }
+}
